@@ -1,5 +1,6 @@
 # Xamarin-Starter
 A Kinvey starter application built on the Xamarin v3.0 SDK.
+
 _Note: This starter app uses the [Kinvey Xamarin v3 Library](http://devcenter.kinvey.com/xamarin-v3.0)._
 
 ## Features
@@ -14,7 +15,7 @@ _Note: This starter app uses the [Kinvey Xamarin v3 Library](http://devcenter.ki
 3. Set either KXStarterApp.iOS or KXStarterApp.Droid as startup project, depending on desired platform.
 4. Build entire solution.
 5. Create a user using the [console](http://console.kinvey.com) for your application.
-6. Change <app-key> and <app-secret> in KXStarterAppPage.xaml.cs.
+6. Change `<app-key>` and `<app-secret>` in `KXStarterAppPage.xaml.cs`.
 
 ## Run
 
