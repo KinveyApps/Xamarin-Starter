@@ -7,10 +7,10 @@ namespace KXStarterApp
 {
 	public partial class KXStarterAppPage : ContentPage
 	{
-		private string app_key = "kid_byWWRXzJCe";
-		private string app_secret = "4a58018febe945fea5ba76c08ce1e870";
-		private string user = "testuser";
-		private string pass = "testpass";
+		private string app_key = "";
+		private string app_secret = "";
+		private string user = "";
+		private string pass = "";
 
 		public KXStarterAppPage()
 		{
