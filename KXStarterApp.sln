@@ -1,0 +1,57 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KXStarterApp", "KXStarterApp\KXStarterApp.csproj", "{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KXStarterApp.iOS", "iOS\KXStarterApp.iOS.csproj", "{FFFFF0C7-1509-4628-818C-8DC89246D82B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KXStarterApp.Droid", "Droid\KXStarterApp.Droid.csproj", "{E31296AC-5113-45A8-8BCA-57497D44864F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Release|iPhone.Build.0 = Release|Any CPU
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{EB16DA28-844A-400F-9D61-EFD3BA8B20F0}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Release|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Release|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Release|iPhone.Build.0 = Release|iPhone
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{FFFFF0C7-1509-4628-818C-8DC89246D82B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Release|iPhone.Build.0 = Release|Any CPU
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E31296AC-5113-45A8-8BCA-57497D44864F}.Debug|iPhone.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal

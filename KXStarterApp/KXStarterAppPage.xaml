@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		xmlns:local="clr-namespace:KXStarterApp"
+		x:Class="KXStarterApp.KXStarterAppPage"
+		Padding="0,20,0,0">
+	<StackLayout>
+		<Label Text="Xamarin v3.0 Starter App"
+			VerticalOptions="Center"
+			HorizontalTextAlignment="Center"
+			Rotation="0"
+			IsVisible="true"
+			FontSize="Large"
+			FontAttributes="Bold"
+			TextColor="#D74F24" />
+		<Button Text="Add Book"
+				HorizontalOptions="Center"
+				VerticalOptions="CenterAndExpand"
+				Clicked="OnButtonClicked" />
+		<Button Text="Push"
+				HorizontalOptions="Center"
+				VerticalOptions="CenterAndExpand"
+				Clicked="OnButtonClicked" />
+		<Button Text="Pull"
+				HorizontalOptions="Center"
+				VerticalOptions="CenterAndExpand"
+				Clicked="OnButtonClicked" />
+		<Button Text="Sync"
+				HorizontalOptions="Center"
+				VerticalOptions="CenterAndExpand"
+				Clicked="OnButtonClicked" />
+	</StackLayout>
+</ContentPage>
+
