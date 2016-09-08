@@ -1,7 +1,7 @@
 # Xamarin-Starter
 A Kinvey starter application built on the Xamarin v3.0 SDK.
 
-_Note: This starter app uses the [Kinvey Xamarin v3 Library](http://devcenter.kinvey.com/xamarin-v3.0_private_beta)._
+_Note: This starter app uses the [Kinvey Xamarin v3 Library](http://devcenter.kinvey.com/xamarin-v3.0)._
 
 ## Features
 
