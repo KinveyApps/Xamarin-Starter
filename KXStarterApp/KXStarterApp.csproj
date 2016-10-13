@@ -84,13 +84,13 @@
       <HintPath>..\packages\SQLite.Net-PCL.3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll</HintPath>
     </Reference>
     <Reference Include="Kinvey-Utils">
-      <HintPath>..\packages\Kinvey.3.0.0-Beta01\lib\Kinvey-Utils.dll</HintPath>
+      <HintPath>..\packages\Kinvey.3.0.0-Beta02\lib\Kinvey-Utils.dll</HintPath>
     </Reference>
     <Reference Include="RestSharp.Portable">
-      <HintPath>..\packages\Kinvey.3.0.0-Beta01\lib\RestSharp.Portable.dll</HintPath>
+      <HintPath>..\packages\Kinvey.3.0.0-Beta02\lib\RestSharp.Portable.dll</HintPath>
     </Reference>
     <Reference Include="Kinvey-Xamarin">
-      <HintPath>..\packages\Kinvey.3.0.0-Beta01\lib\Kinvey-Xamarin.dll</HintPath>
+      <HintPath>..\packages\Kinvey.3.0.0-Beta02\lib\Kinvey-Xamarin.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

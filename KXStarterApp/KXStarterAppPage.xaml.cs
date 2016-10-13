@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using KinveyXamarin;
 
 namespace KXStarterApp
@@ -17,17 +18,23 @@ namespace KXStarterApp
 			InitializeComponent();
 			try
 			{
-				Client c = new Client.Builder(app_key, app_secret)
-									 //.setFilePath (NSFileManager.DefaultManager.GetUrls (NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomain.User) [0].ToString ())
-									 .setFilePath(DependencyService.Get<ISQLite>().GetPath())
-									 .setOfflinePlatform(DependencyService.Get<ISQLite>().GetConnection())
-									//.setLogger (delegate (string msg) { Console.WriteLine (msg); })
-									.build();
+				BuildClient();
 			}
 			catch (Exception e)
 			{
 				DisplayAlert("General Exception", e.Message, "OK");
 			}
+		}
+
+		private async Task<Client> BuildClient()
+		{
+			Client.Builder cb = new Client.Builder(app_key, app_secret)
+				//.setFilePath (NSFileManager.DefaultManager.GetUrls (NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomain.User) [0].ToString ())
+				.setFilePath(DependencyService.Get<ISQLite>().GetPath())
+				.setOfflinePlatform(DependencyService.Get<ISQLite>().GetConnection());
+				//.setLogger (delegate (string msg) { Console.WriteLine (msg); })
+
+			return await cb.Build();
 		}
 
 		async void OnButtonClicked(object sender, EventArgs args)
