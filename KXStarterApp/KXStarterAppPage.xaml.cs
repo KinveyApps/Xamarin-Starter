@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using KinveyXamarin;
+using Kinvey;
 
 namespace KXStarterApp
 {
@@ -63,23 +63,23 @@ namespace KXStarterApp
 				}
 				else if (button.Text == "Push")
 				{
-					DataStoreResponse dsr = await dataStore.PushAsync();
+					PushDataStoreResponse<Book> dsr = await dataStore.PushAsync();
 					await DisplayAlert("Local Data Pushed!",
-										"The button labeled '" + button.Text + "' has been clicked, and " + dsr.Count + " book(s) has/have been pushed to Kinvey.",
+					                   "The button labeled '" + button.Text + "' has been clicked, and " + dsr.PushCount + " book(s) has/have been pushed to Kinvey.",
 										"OK");
 				}
 				else if (button.Text == "Pull")
 				{
-					List<Book> books = await dataStore.PullAsync();
+					PullDataStoreResponse<Book> dsr = await dataStore.PullAsync();
 					await DisplayAlert("Local Data Pulled!",
-										"The button labeled '" + button.Text + "' has been clicked, and " + books.Count + " book(s) has/have been pulled from Kinvey.",
+					                   "The button labeled '" + button.Text + "' has been clicked, and " + dsr.PullCount + " book(s) has/have been pulled from Kinvey.",
 										"OK");
 				}
 				else if (button.Text == "Sync")
 				{
-					DataStoreResponse dsr = await dataStore.SyncAsync();
+					SyncDataStoreResponse<Book> dsr = await dataStore.SyncAsync();
 					await DisplayAlert("Local Data Synced!",
-										"The button labeled '" + button.Text + "' has been clicked, and " + dsr.Count + " book(s) has/have been synced with Kinvey.",
+					                   "The button labeled '" + button.Text + "' has been clicked, and " + dsr.PullResponse.PullCount + " book(s) has/have been synced with Kinvey.",
 										"OK");
 				}
 			}
