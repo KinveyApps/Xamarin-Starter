@@ -34,7 +34,7 @@ namespace KXStarterApp
 				.setOfflinePlatform(DependencyService.Get<ISQLite>().GetConnection());
 				//.setLogger (delegate (string msg) { Console.WriteLine (msg); })
 
-			return await cb.Build();
+			return cb.Build();
 		}
 
 		async void OnButtonClicked(object sender, EventArgs args)
