@@ -8,7 +8,7 @@ public class SQLite_Android : KXStarterApp.ISQLite
 	public SQLite_Android() { }
 	public SQLite.Net.Interop.ISQLitePlatform GetConnection()
 	{
-		return new SQLitePlatformAndroid();
+		return new SQLitePlatformAndroidN();
 	}
 
 	public string GetPath()
