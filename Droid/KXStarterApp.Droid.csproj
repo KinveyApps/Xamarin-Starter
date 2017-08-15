@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>KXStarterApp.Droid</RootNamespace>
     <AssemblyName>KXStarterApp.Droid</AssemblyName>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -143,22 +143,10 @@
       <HintPath>..\packages\SQLite.Net.Platform.XamarinAndroidN.3.1.1\lib\SQLite.Net.Platform.XamarinAndroidN.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression" />
-    <Reference Include="PubnubNetPlatform">
-      <HintPath>..\packages\PubnubNetPlatform.3.8.7.0\lib\netstandard1.3\PubnubNetPlatform.dll</HintPath>
-    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Primitives" />
     <Reference Include="System.Net.Requests" />
-    <Reference Include="Kinvey-Utils">
-      <HintPath>..\packages\Kinvey.3.0.9\lib\Kinvey-Utils.dll</HintPath>
-    </Reference>
-    <Reference Include="Kinvey.Core">
-      <HintPath>..\packages\Kinvey.3.0.9\lib\Kinvey.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="RestSharp.Portable">
-      <HintPath>..\packages\Kinvey.3.0.9\lib\RestSharp.Portable.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Basement">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Basement.27.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Basement.dll</HintPath>
     </Reference>
@@ -168,10 +156,25 @@
     <Reference Include="Xamarin.GooglePlayServices.Gcm">
       <HintPath>..\packages\Xamarin.GooglePlayServices.Gcm.27.0.0.0\lib\MonoAndroid41\Xamarin.GooglePlayServices.Gcm.dll</HintPath>
     </Reference>
-    <Reference Include="Kinvey-Xamarin-Android">
-      <HintPath>..\packages\Kinvey-Android.3.0.9\lib\Kinvey-Xamarin-Android.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="crypto">
+      <HintPath>..\packages\Portable.BouncyCastle.1.8.1.1\lib\netstandard1.3\crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="PubnubPCL">
+      <HintPath>..\packages\PubnubPCL.4.0.2.2\lib\netstandard1.4\PubnubPCL.dll</HintPath>
+    </Reference>
+    <Reference Include="Kinvey-Utils">
+      <HintPath>..\packages\Kinvey.3.0.15\lib\Kinvey-Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Kinvey.Core">
+      <HintPath>..\packages\Kinvey.3.0.15\lib\Kinvey.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp.Portable">
+      <HintPath>..\packages\Kinvey.3.0.15\lib\RestSharp.Portable.dll</HintPath>
+    </Reference>
+    <Reference Include="Kinvey-Xamarin-Android">
+      <HintPath>..\packages\Kinvey-Android.3.0.15\lib\Kinvey-Xamarin-Android.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\KXStarterApp\KXStarterApp.csproj">
